@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  stock-explorer-swift
-//
-//  Created by 洪德晟 on 2023/5/6.
-//
-
 import SwiftUI
 
 struct ContentView: View {
