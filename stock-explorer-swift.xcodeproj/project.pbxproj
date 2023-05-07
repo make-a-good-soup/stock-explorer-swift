@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56AD84272A0785ED002773E7 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AD84262A0785ED002773E7 /* Assets.swift */; };
 		56F5153B2A05ED95003E212D /* stock_explorer_swiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5153A2A05ED95003E212D /* stock_explorer_swiftApp.swift */; };
 		56F5153D2A05ED95003E212D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5153C2A05ED95003E212D /* ContentView.swift */; };
 		56F5153F2A05ED96003E212D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F5153E2A05ED96003E212D /* Colors.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56AD84262A0785ED002773E7 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		56F515372A05ED95003E212D /* stock-explorer-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stock-explorer-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56F5153A2A05ED95003E212D /* stock_explorer_swiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stock_explorer_swiftApp.swift; sourceTree = "<group>"; };
 		56F5153C2A05ED95003E212D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		560E463C2A060A78002468CD /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				56AD84262A0785ED002773E7 /* Assets.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
 		56F5152E2A05ED95003E212D = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +104,11 @@
 		56F515392A05ED95003E212D /* stock-explorer-swift */ = {
 			isa = PBXGroup;
 			children = (
-				56F5153A2A05ED95003E212D /* stock_explorer_swiftApp.swift */,
 				56F5153C2A05ED95003E212D /* ContentView.swift */,
-				56FB24AB2A0606CC00032C23 /* Resources */,
+				560E463C2A060A78002468CD /* Generated */,
 				56F515402A05ED96003E212D /* Preview Content */,
+				56FB24AB2A0606CC00032C23 /* Resources */,
+				56F5153A2A05ED95003E212D /* stock_explorer_swiftApp.swift */,
 			);
 			path = "stock-explorer-swift";
 			sourceTree = "<group>";
@@ -289,6 +300,7 @@
 			files = (
 				56F5153D2A05ED95003E212D /* ContentView.swift in Sources */,
 				56F5153B2A05ED95003E212D /* stock_explorer_swiftApp.swift in Sources */,
+				56AD84272A0785ED002773E7 /* Assets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
