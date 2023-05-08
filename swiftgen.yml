@@ -1,0 +1,9 @@
+input_dir: stock-explorer-swift/Resources/
+output_dir: stock-explorer-swift/Generated/
+
+xcassets:
+  inputs:
+    - Colors.xcassets
+  outputs:
+    - templateName: swift5
+      output: Assets.swift
