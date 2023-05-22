@@ -1,3 +1,4 @@
+import DesignSystem
 import SwiftUI
 
 struct ContentView: View {
@@ -7,6 +8,9 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+            Button("Test") {
+                print("On Press Button")
+            }.buttonStyle(PrimaryButtonStyle())
         }
         .padding()
     }
