@@ -1,14 +1,7 @@
-//
-//  stock_explorer_swiftTests.swift
-//  stock-explorer-swiftTests
-//
-//  Created by 洪德晟 on 2023/5/6.
-//
-
 @testable import stock_explorer_swift
 import XCTest
 
-final class stock_explorer_swiftTests: XCTestCase {
+final class StockExplorerSwiftTests: XCTestCase {
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }

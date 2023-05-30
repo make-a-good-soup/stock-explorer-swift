@@ -1,13 +1,6 @@
-//
-//  stock_explorer_swiftUITestsLaunchTests.swift
-//  stock-explorer-swiftUITests
-//
-//  Created by 洪德晟 on 2023/5/6.
-//
-
 import XCTest
 
-final class stock_explorer_swiftUITestsLaunchTests: XCTestCase {
+final class StockExplorerSwiftUITestsLaunchTests: XCTestCase {
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
     }
