@@ -8,7 +8,7 @@ public struct PrimaryButtonStyle: ButtonStyle {
     public func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .frame(width: 112, height: 36)
-            .foregroundColor(!isEnabled ? Asset.onPrimary.swiftUIColor : Asset.onPrimary.swiftUIColor)
+            .foregroundColor(Asset.onPrimary.swiftUIColor)
             .font(Font.body)
             .padding(10)
             .background(
