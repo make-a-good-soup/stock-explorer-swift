@@ -3,16 +3,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-            Button("Test") {
-                print("On Press Button")
-            }.buttonStyle(PrimaryButtonStyle())
+        TabView {
+            VStack {
+                WatchlistView()
+            }.tabItem {
+                Label("追蹤", systemImage: "star")
+            }
+            VStack {
+                CommunityView()
+            }.tabItem {
+                Label("社群", systemImage: "star")
+            }
+            VStack {
+                MyView()
+            }.tabItem {
+                Label("我的", systemImage: "star")
+            }
         }
-        .padding()
     }
 }
 
