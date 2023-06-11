@@ -15,8 +15,6 @@ struct MyView: View {
     }
 }
 
-struct MyView_Previews: PreviewProvider {
-    static var previews: some View {
-        MyView()
-    }
+#Preview {
+    MyView()
 }

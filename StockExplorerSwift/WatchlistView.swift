@@ -15,8 +15,6 @@ struct WatchlistView: View {
     }
 }
 
-struct WatchlistView_Previews: PreviewProvider {
-    static var previews: some View {
-        WatchlistView()
-    }
+#Preview {
+    WatchlistView()
 }
