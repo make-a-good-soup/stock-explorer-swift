@@ -8,11 +8,11 @@ public struct SecondaryButtonStyle: ButtonStyle {
     public func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .frame(width: 112, height: 36)
-            .foregroundColor(configuration.isPressed ? Asset.onPrimary.swiftUIColor : Asset.primary.swiftUIColor.opacity(isEnabled ? 1 : 0.5))
+            .foregroundColor(configuration.isPressed ? Color(.onPrimary) : Color(.primary))
             .font(Font.body)
             .padding(10)
             .background(
-                configuration.isPressed ? Asset.onPrimaryContainer.swiftUIColor : Asset.onPrimary.swiftUIColor.opacity(isEnabled ? 1 : 0.5)
+                configuration.isPressed ? Color(.onPrimaryContainer) : Color(.onPrimary).opacity(isEnabled ? 1 : 0.5)
             )
             .cornerRadius(100)
     }

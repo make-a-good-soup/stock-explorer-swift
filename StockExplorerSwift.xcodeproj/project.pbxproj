@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		56385E212A1B995000824289 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56385E202A1B995000824289 /* PrimaryButtonStyle.swift */; };
 		56385E242A1B9A8400824289 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56385E232A1B999900824289 /* Colors.xcassets */; };
-		56385E282A1B9ACC00824289 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56385E272A1B9ACC00824289 /* Assets.swift */; };
 		569A36232A2E217300164967 /* SecondaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569A36222A2E217300164967 /* SecondaryButtonStyle.swift */; };
 		569A36252A2E251A00164967 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569A36242A2E251A00164967 /* ContentView.swift */; };
 		569A36272A2E286800164967 /* WatchlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569A36262A2E286800164967 /* WatchlistView.swift */; };
@@ -67,7 +66,6 @@
 /* Begin PBXFileReference section */
 		56385E202A1B995000824289 /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
 		56385E232A1B999900824289 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
-		56385E272A1B9ACC00824289 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		569A36222A2E217300164967 /* SecondaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButtonStyle.swift; sourceTree = "<group>"; };
 		569A36242A2E251A00164967 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		569A36262A2E286800164967 /* WatchlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistView.swift; sourceTree = "<group>"; };
@@ -131,7 +129,6 @@
 		56EA5B852A1B8AB1005D793D /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
-				56385E272A1B9ACC00824289 /* Assets.swift */,
 				56385E202A1B995000824289 /* PrimaryButtonStyle.swift */,
 				56385E222A1B999900824289 /* Resources */,
 				56EA5B872A1B8AB1005D793D /* DesignSystem.docc */,
@@ -406,7 +403,6 @@
 				56385E212A1B995000824289 /* PrimaryButtonStyle.swift in Sources */,
 				56EA5B882A1B8AB1005D793D /* DesignSystem.docc in Sources */,
 				569A36232A2E217300164967 /* SecondaryButtonStyle.swift in Sources */,
-				56385E282A1B9ACC00824289 /* Assets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
