@@ -1,6 +1,6 @@
 import SwiftUI
 
-public struct PrimaryButtonStyle: ButtonStyle {
+public struct SecondaryButtonStyle: ButtonStyle {
     @Environment(\.isEnabled) private var isEnabled
 
     public init() {}
@@ -8,11 +8,11 @@ public struct PrimaryButtonStyle: ButtonStyle {
     public func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .frame(width: 112, height: 36)
-            .foregroundColor(Asset.onPrimary.swiftUIColor)
+            .foregroundColor(configuration.isPressed ? Asset.onPrimary.swiftUIColor : Asset.primary.swiftUIColor.opacity(isEnabled ? 1 : 0.5))
             .font(Font.body)
             .padding(10)
             .background(
-                !isEnabled ? Asset.primary.swiftUIColor.opacity(0.5) : (configuration.isPressed ? Asset.onPrimaryContainer.swiftUIColor : Asset.primary.swiftUIColor)
+                configuration.isPressed ? Asset.onPrimaryContainer.swiftUIColor : Asset.onPrimary.swiftUIColor.opacity(isEnabled ? 1 : 0.5)
             )
             .cornerRadius(100)
     }
